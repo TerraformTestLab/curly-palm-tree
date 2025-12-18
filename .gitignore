@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+hello-world
 
 # Test binary, built with `go test -c`
 *.test
@@ -28,5 +29,18 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+
+# VS Code - ignore most but allow configurations
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# JetBrains IDEs (GoLand, IntelliJ IDEA)
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
