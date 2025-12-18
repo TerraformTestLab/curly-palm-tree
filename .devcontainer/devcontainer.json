@@ -31,7 +31,8 @@
 				"ms-vsliveshare.vsliveshare",
 				"PKief.material-product-icons",
 				"Catppuccin.catppuccin-vsc",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"pomdtr.excalidraw-editor"
 			]
 		}
 	},
