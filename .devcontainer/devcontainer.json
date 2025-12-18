@@ -8,21 +8,27 @@
 				"go.toolsManagement.checkForUpdates": "local",
 				"go.useLanguageServer": true,
 				"go.autocompleteUnimportedPackages": true,
-				"go.gocodePackageLookupMode": "go",
 				"go.gotoSymbol.includeImports": true,
 				"go.gotoSymbol.includeGoroot": true,
 				"go.lintTool": "golangci-lint",
 				"go.lintOnSave": "workspace",
 				"editor.formatOnSave": true,
 				"go.formatTool": "gofmt",
-				"go.buildOnSave": "workspace",
 				"go.testOnSave": false,
-				"go.coverOnSave": false
+				"go.coverOnSave": false,
+				"go.diagnostic.analyses": {
+					"unusedparams": true,
+					"shadow": true,
+					"unusedwrite": true,
+					"useany": true
+				},
+				"go.diagnostic.vulncheck": "Imports",
+				"terminal.integrated.shellIntegration.enabled": true,
+				"terminal.integrated.suggest.enabled": true
 			},
 			"extensions": [
 				"golang.go",
 				"ms-vsliveshare.vsliveshare",
-				"Equinusocio.vsc-material-theme-icons",
 				"PKief.material-product-icons",
 				"Catppuccin.catppuccin-vsc",
 				"formulahendry.code-runner"
@@ -31,10 +37,5 @@
 	},
 	
 	"postCreateCommand": "go mod download && go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest",
-	
-	"features": {
-		"ghcr.io/devcontainers/features/git:1": {}
-	},
-	
 	"remoteUser": "vscode"
 }
