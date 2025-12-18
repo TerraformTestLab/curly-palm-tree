@@ -6,6 +6,9 @@
 		"vscode": {
 			"settings": {
 				"workbench.colorTheme": "Catppuccin Mocha",
+				"window.autoDetectColorScheme": true,
+				"workbench.iconTheme": "a-file-icon-vscode",
+				"workbench.productIconTheme": "material-product-icons",
 				"go.toolsManagement.checkForUpdates": "local",
 				"go.useLanguageServer": true,
 				"go.autocompleteUnimportedPackages": true,
@@ -33,7 +36,8 @@
 				"PKief.material-product-icons",
 				"Catppuccin.catppuccin-vsc",
 				"formulahendry.code-runner",
-				"pomdtr.excalidraw-editor"
+				"pomdtr.excalidraw-editor",
+				"atommaterial.a-file-icon-vscode"
 			]
 		}
 	},
