@@ -28,5 +28,12 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+
+# JetBrains IDEs (GoLand, IntelliJ IDEA)
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
