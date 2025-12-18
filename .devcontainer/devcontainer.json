@@ -5,6 +5,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"workbench.colorTheme": "Catppuccin Mocha",
 				"go.toolsManagement.checkForUpdates": "local",
 				"go.useLanguageServer": true,
 				"go.autocompleteUnimportedPackages": true,
