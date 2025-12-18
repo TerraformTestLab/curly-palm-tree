@@ -5,8 +5,9 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"editor.acceptSuggestionOnEnter": "on",
+				"editor.bracketPairColorization.enabled": true,
 				"workbench.colorTheme": "Catppuccin Mocha",
-				"window.autoDetectColorScheme": true,
 				"workbench.iconTheme": "a-file-icon-vscode",
 				"workbench.productIconTheme": "material-product-icons",
 				"go.toolsManagement.checkForUpdates": "local",
