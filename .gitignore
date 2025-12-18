@@ -29,7 +29,13 @@ go.work.sum
 
 # Editor/IDE
 .idea/
-.vscode/
+
+# VS Code - ignore most but allow configurations
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
 
 # JetBrains IDEs (GoLand, IntelliJ IDEA)
 *.iml
